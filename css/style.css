@@ -11,8 +11,20 @@
 .bold {
   font-weight: bold;
 }
-
+.italic {
+  font-style: italic;
+}
+body {
+  max-width: 1960px;
+  margin: 0 auto;
+}
 button {
+  outline: none;
+  padding: 0;
+  border: none;
+  background: none;
+}
+input {
   outline: none;
   padding: 0;
   border: none;
@@ -25,10 +37,16 @@ header {
   z-index: 1;
   position: fixed;
   background-color: white;
+  max-width: 1960px;
+  display: block;
+  justify-content: center;
 }
 
 main {
   padding-top: 120px;
+  max-width: 1960px;
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
@@ -117,7 +135,6 @@ nav {
 
 .articles {
   width: 1106px;
-  height: 1300px;
   display: block;
   margin: 0 auto;
   margin-top: 80px;
@@ -244,7 +261,7 @@ nav {
   margin-top: 114px;
 }
 
-.ediblock {
+.split {
   width: 50%;
   height: 100%;
   display: block;
@@ -314,6 +331,9 @@ footer {
   width: 100%;
   height: 550px;
   background-color: black;
+  max-width: 1960px;
+  display: block;
+  margin: 0 auto;
 }
 
 .nlblock {
@@ -372,6 +392,7 @@ footer {
   padding-top: 5px;
   padding-bottom: 8px;
   margin-top: 17px;
+  text-decoration: none;
 }
 
 .adresblock {
@@ -392,4 +413,128 @@ footer {
   color: white;
   text-align: center;
   margin-top: 28px;
+}
+
+.spacer {
+  height: 1000px;
+  width: 100%;
+}
+
+.mainartpic {
+  background-image: url(../img/image8.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.arttitle {
+  font-size: 2.5em;
+  line-height: 40px;
+  margin-top: 85px;
+
+  letter-spacing: 1px;
+}
+
+.artinfo {
+  font-size: 1.25em;
+  line-height: 30px;
+  width: 820px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.articlewrap {
+  width: 1010px;
+  margin: 0 auto;
+}
+.arttextwrap {
+  width: 100%;
+}
+
+.artsubtit {
+  font-size: 2.375em;
+  letter-spacing: 1px;
+  text-align: right;
+  margin-top: 85px;
+}
+.arttext {
+  font-size: 1.25em;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-top: 85px;
+  width: 100%;
+}
+.arttextr {
+  font-size: 1.25em;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: right;
+  float: right;
+  margin-top: 85px;
+  width: 550px;
+}
+.arttextl {
+  font-size: 1.25em;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-top: 85px;
+  width: 550px;
+}
+
+.artimgl {
+  width: 400px;
+  height: 240px;
+  object-fit: cover;
+  margin-top: 85px;
+}
+.artimgr {
+  width: 400px;
+  height: 240px;
+  object-fit: cover;
+  float: right;
+}
+.artimg {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  margin-top: 85px;
+  object-position: 0 62%;
+  margin-bottom: 50px;
+}
+
+.infoblock {
+  background-color: #54cb90;
+  margin-top: 85px;
+  width: 100%;
+  height: 420px;
+}
+
+.quote {
+  font-size: 2.5em;
+  margin-top: 90px;
+  margin-right: 110px;
+  color: white;
+  text-align: right;
+  line-height: 56px;
+  letter-spacing: 1px;
+}
+
+.quoter {
+  font-size: 1.75em;
+  margin-top: 30px;
+  margin-right: 110px;
+  color: white;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.name {
+}
+
+.time {
+}
+
+.topic {
 }

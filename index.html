@@ -19,7 +19,7 @@
     <!-- fons stles end -->
   </head>
   <body>
-    <header class="clearfix">
+    <header>
       <div class="ph">
         <h1 class="unifraktur">Unifraktur</h1>
       </div>
@@ -46,13 +46,13 @@
             Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
             auctor.
           </p>
-          <button class="rm unifraktur">read more</button>
+          <a class="rm unifraktur">read more</a>
         </div>
       </div>
       <div class="articles">
         <h2 class="t2 notosans bold">Recent articles</h2>
 
-        <div class="row clearfix">
+        <div class="row">
           <div class="card">
             <img
               class="thumbnail"
@@ -93,9 +93,10 @@
               Cras mattis consectetur purus sit amet fermentum.
             </p>
           </div>
+          <div class="clearfix"></div>
         </div>
 
-        <div class="row clearfix">
+        <div class="row">
           <div class="card">
             <img
               class="thumbnail"
@@ -132,11 +133,12 @@
               Cras mattis consectetur purus sit amet fermentum.
             </p>
           </div>
+          <div class="clearfix"></div>
         </div>
+        <a class="ma unifraktur">more articles</a>
       </div>
-      <button class="ma unifraktur">more articles</button>
 
-      <div class="ovons clearfix">
+      <div class="ovons">
         <img src="img/image8.jpg" alt="" class="ovimg" />
         <div class="ovoblock">
           <h3 class="ovtext notosans bold">
@@ -147,33 +149,35 @@
             nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.
           </p>
-          <button class="rm2 unifraktur">read more</button>
+          <a href="article.html" class="rm2 unifraktur">read more</a>
         </div>
+        <div class="clearfix"></div>
       </div>
-      <div class="editors clearfix">
-        <div class="ediblock">
+      <div class="editors">
+        <div class="split">
           <h2 class="editext notosans bold">Meet our editors</h2>
           <p class="edisub notosans">
             Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
             nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.
           </p>
-          <button class="vt unifraktur">view team</button>
+          <a class="vt unifraktur">view team</a>
         </div>
-        <div class="ediblock">
+        <div class="split">
           <div class="faceblock">
             <div class="facerow1">
-              <img src="img/face1.jpeg" alt="" class="faces" />
-              <img src="img/face2.jpeg" alt="" class="faces" />
-              <img src="img/face3.jpeg" alt="" class="faces" />
+              <img src="img/face1.jpeg" alt="monica" class="faces" />
+              <img src="img/face2.jpeg" alt="jan" class="faces" />
+              <img src="img/face3.jpeg" alt="peter" class="faces" />
             </div>
             <div class="facerow2">
-              <img src="img/face4.jpeg" alt="" class="faces" />
-              <img src="img/face5.jpeg" alt="" class="faces" />
-              <img src="img/face6.jpeg" alt="" class="faces" />
+              <img src="img/face4.jpeg" alt="ely" class="faces" />
+              <img src="img/face5.jpeg" alt="henk" class="faces" />
+              <img src="img/face6.jpeg" alt="pieter" class="faces" />
             </div>
           </div>
         </div>
+        <div class="clearfix"></div>
       </div>
     </main>
     <footer>
@@ -183,14 +187,26 @@
           Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
           vestibulum.
         </p>
-        <input
-          class="nlmail notosans"
-          placeholder="Enter e-mail
-        "
-          type="text"
-        />
-        <button class="nlscribe unifraktur">subscribe</button>
+
+        <form>
+          <div>
+            <input
+              class="nlmail notosans"
+              placeholder="Enter e-mail
+          "
+              type="email"
+            />
+          </div>
+          <div>
+            <input
+              type="submit"
+              value="subscribe"
+              class="nlscribe unifraktur"
+            />
+          </div>
+        </form>
       </div>
+
       <div class="adresblock">
         <h6 class="adrestext unifraktur">Unifraktur</h6>
         <p class="adressub notosans">
