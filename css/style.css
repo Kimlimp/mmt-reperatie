@@ -1,0 +1,395 @@
+.clearfix {
+  clear: both;
+}
+
+.unifraktur {
+  font-family: "UnifrakturCook", cursive;
+}
+.notosans {
+  font-family: "Noto Sans", sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+
+button {
+  outline: none;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  z-index: 1;
+  position: fixed;
+  background-color: white;
+}
+
+main {
+  padding-top: 120px;
+}
+
+h1 {
+  color: #54cb90;
+  font-size: 7.6875em;
+  padding-top: 37px;
+  padding-left: 89px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav a {
+  padding: 2px 20px;
+  font-size: 1em;
+  color: #54cb90;
+}
+
+nav {
+  float: right;
+  padding-right: 118px;
+  padding-top: 47px;
+}
+
+.ph {
+  display: block;
+  float: left;
+}
+
+.mainpic {
+  background-image: url(../img/image1.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+}
+
+.introblock {
+  width: 536px;
+  height: 303px;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+
+.p1 {
+  font-size: 1.125em;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  padding-top: 14px;
+  padding-left: 40px;
+  padding-right: 92px;
+}
+
+.t1 {
+  font-size: 1.5625em;
+  line-height: 40px;
+  letter-spacing: 0px;
+  padding-top: 38px;
+  padding-left: 40px;
+  padding-right: 92px;
+}
+
+.rm {
+  font-size: 1.5625em;
+  color: #54cb90;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.articles {
+  width: 1106px;
+  height: 1300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.t2 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.row {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 352px;
+  height: 571px;
+  border: 3px solid #54cb90;
+  float: left;
+  display: block;
+  margin-bottom: 20px;
+}
+.card:nth-child(2) {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.thumbnail {
+  height: 346px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.thumbtext {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.25em;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.thumbsub {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.125em;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.ma {
+  background-color: #54cb90;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  font-size: 1.5625em;
+  display: block;
+  width: 168px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ovons {
+  width: 1022px;
+  height: 462px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 136px;
+  padding-right: 84px;
+}
+
+.ovimg {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  display: block;
+  float: left;
+  margin-right: 46px;
+}
+
+.ovoblock {
+  width: 40%;
+  display: block;
+  float: left;
+}
+
+.ovtext {
+  font-size: 1.5625em;
+  display: block;
+  float: left;
+  /* width: 40%; */
+  margin-top: 125px;
+  line-height: 40px;
+}
+
+.ovsub {
+  font-size: 1.125em;
+  display: block;
+  float: left;
+  /* width: 40%; */
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.rm2 {
+  font-size: 1.5625em;
+  color: #54cb90;
+  padding-right: 80px;
+  padding-top: 50px;
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+.editors {
+  background-color: #54cb90;
+  width: 100%;
+  height: 492px;
+  margin-top: 114px;
+}
+
+.ediblock {
+  width: 50%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.editext {
+  font-size: 2.5em;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: white;
+  margin-left: 139px;
+  margin-right: 192px;
+  margin-top: 92px;
+}
+
+.edisub {
+  font-size: 1.125em;
+  line-height: 25px;
+  color: white;
+  margin-left: 139px;
+  margin-right: 192px;
+  margin-top: 19px;
+}
+
+.vt {
+  background-color: white;
+  color: #54cb90;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  font-size: 1.5625em;
+  display: block;
+  width: 168px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 139px;
+  margin-top: 39px;
+}
+
+.faceblock {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.facerow1 {
+  position: relative;
+  display: block;
+  margin-bottom: 13px;
+}
+.facerow2 {
+  position: relative;
+  display: block;
+}
+
+.faces {
+  border-radius: 50%;
+  width: 168px;
+  height: 168px;
+}
+
+.faces:nth-child(2) {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+footer {
+  width: 100%;
+  height: 550px;
+  background-color: black;
+}
+
+.nlblock {
+  width: 444px;
+  height: 248px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.nltext {
+  font-size: 1.5625em;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.nlsub {
+  font-size: 1.125em;
+  line-height: 25px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  margin-top: 10px;
+}
+
+.nlmail::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.125em;
+}
+.nlmail {
+  width: 100%;
+  padding: 17px 14px;
+  margin-top: 54px;
+  box-sizing: border-box;
+  border: 3px solid #54cb90;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+.nlmail:focus {
+  border: 2px solid #327956;
+}
+
+.nlscribe {
+  background-color: white;
+  color: #54cb90;
+  width: 100%;
+  font-size: 1.5625em;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  margin-top: 17px;
+}
+
+.adresblock {
+  width: 352px;
+  height: 132px;
+  margin: 0 auto;
+}
+
+.adrestext {
+  font-size: 2.625em;
+  color: white;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.adressub {
+  font-size: 1.125em;
+  color: white;
+  text-align: center;
+  margin-top: 28px;
+}
